@@ -74,7 +74,7 @@ The “confirmed underperformance” signal is designed to avoid false positives
 ---
 
 ## Repository contents
-- `01_underperformance_mini_case.ipynb` — main notebook (Colab-ready)
+- `Underperformance_mini_case.ipynb` — main notebook (Colab-ready)
 - `data/raw/` — raw CSV input folder (optional)
 - `requirements.txt` — minimal Python dependencies
 - `REPORT.md` — short, shareable write-up of results & interpretation
