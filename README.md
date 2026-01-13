@@ -25,7 +25,7 @@ Performance metrics are evaluated primarily during **daylight** (by default: `ex
 
 ## Run behavior (real vs synthetic)
 The notebook runs in either mode:
-- **Real CSV mode:** if raw CSVs exist in `data/raw/`, they are loaded.
+- **Real CSV mode:** if raw CSVs exist in `data/`, they are loaded.
 - **Synthetic mode:** if raw CSVs are not present, the notebook generates a realistic synthetic dataset (including a planted outage + missing-data window) so it runs end-to-end.
 
 The notebook prints `Source: real_csv` or `Source: synthetic`.
@@ -65,7 +65,7 @@ The “confirmed underperformance” signal is designed to avoid false positives
 
 ## How to run (Google Colab)
 1. Open the notebook in Colab.
-2. (Optional) Upload raw CSVs into `data/raw/`:
+2. (Optional) Upload raw CSVs into `data/`:
    - `Actual_..._5_Min.csv`
    - `DA_..._60_Min.csv`
 3. **Run all cells** (Runtime → Run all).
@@ -75,7 +75,7 @@ The “confirmed underperformance” signal is designed to avoid false positives
 
 ## Repository contents
 - `Underperformance_mini_case.ipynb` — main notebook (Colab-ready)
-- `data/raw/` — raw CSV input folder (optional)
+- `data/` — raw CSV input folder (optional)
 - `requirements.txt` — minimal Python dependencies
 - `REPORT.md` — short, shareable write-up of results & interpretation
 
